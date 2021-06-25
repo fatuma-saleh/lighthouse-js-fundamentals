@@ -9,7 +9,7 @@ if (cold) {
   console.log("Make sure you pick out a scarf!");
 }
 
-
+//Another example
 
 console.log("Now you're ready to go outside!");
 
@@ -24,3 +24,22 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+//logical operators examples
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+//Another example
+
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+}
+
+//another example
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
